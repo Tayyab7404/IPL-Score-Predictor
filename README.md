@@ -9,10 +9,6 @@ This project is an IPL Score Predictor that forecasts the score of an IPL match 
 - [Features](#features)
 - [Model](#model)
 - [Results](#results)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -28,12 +24,11 @@ The following features are considered for prediction:
 
 - Batting team
 - Bowling team
-- City
-- Current score
-- Balls left
-- Wickets left
-- Current run rate
-- Target (if available)
+- Batsman
+- Bowler
+- Overs
+- Wickets
+- Venue
 
 ## Model
 
@@ -42,11 +37,3 @@ The project utilizes a machine learning model to predict the match score. The mo
 ## Results
 
 The model's performance is evaluated using various metrics, and the results indicate that the model provides reasonably accurate score predictions. Detailed results and evaluation metrics can be found in the notebook.
-
-## Installation
-
-To run the IPL Score Predictor, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Tayyab7404/IPL-Score-Predictor.git
